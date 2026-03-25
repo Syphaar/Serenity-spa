@@ -77,7 +77,7 @@ const Footer = () => {
             </div>
 
             <div className="pt-5 flex flex-col sm:flex-row sm:justify-between">
-                <p className="capitalize font-semibold">© 2025 Serenity Spa. All rights reserved.</p>
+                <p className="capitalize font-semibold">© {new Date().getFullYear()} Serenity Spa. All rights reserved.</p>
                 <div className="flex flex-col gap-2 pt-3 sm:flex-row sm:gap-5 sm:pt-0">
                     <p className="cursor-pointer transition duration-300 hover:underline">Privacy policy</p>
                     <p className="cursor-pointer transition duration-300 hover:underline">Terms of Service</p>

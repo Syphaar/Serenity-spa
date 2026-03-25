@@ -97,7 +97,7 @@ const SpaMenu: React.FC = () => {
   return (
     <section className="bg-midnight">
         <div className=" px-4 pt-10 sm:px-8 lg:px-16 lg:pt-14 xl:px-24">
-        <Heading>Our Menu</Heading>
+        <Heading>Spa Services</Heading>
             <div className="md:flex md:gap-8 pt-3">
                 {/* Left column */}
                 <div className="flex-1">

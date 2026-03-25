@@ -33,7 +33,7 @@ const Navbar = () => {
         scrolled ? 'bg-tahiti text-white shadow-md' : 'bg-midnight text-tahiti shadow-none'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 flex justify-between items-center h-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-16 xl:px-20 flex justify-between items-center h-16">
         <Link to="/" className="text-2xl font-bold">
           Serenity
         </Link>
